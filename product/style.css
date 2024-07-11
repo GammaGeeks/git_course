@@ -25,15 +25,6 @@ body {
     margin-bottom: 30px;
 }
 
-.product-image {
-    flex: 1;
-}
-
-.product-image img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
 
 .product-info {
     flex: 2;
@@ -78,7 +69,22 @@ body {
 .btn-add-to-cart:hover, .btn-buy-now:hover {
     background-color: #27ae60;
 }
-.product-image {
+.picture{
     width: 50px;
-    font-size: 100px;
+    height: 100px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+.img {
+    width: 100px !important; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
