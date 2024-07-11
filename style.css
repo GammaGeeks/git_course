@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+}
+
+#company-info, #team {
+    margin-bottom: 2rem;
+}
+
+#team .team-member {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#team .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
