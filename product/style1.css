@@ -1,0 +1,85 @@
+/* Reset some basic elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a basic font for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main section styling */
+main {
+    padding: 2rem;
+}
+
+/* House list container */
+.house-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+/* House card styling */
+.house-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.house-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.house-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.house-card h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.house-card .price {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-bottom: 0.5rem;
+}
+
+.house-card .description {
+    font-size: 1rem;
+    color: #777;
+    padding: 0 1rem 1rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
